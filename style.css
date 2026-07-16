@@ -2,15 +2,17 @@ body {
     background-image: url('https://raw.githubusercontent.com/absvrd1ty/a/refs/heads/main/pesok.png');
 }
 
-.h1 {
-  color: red;
-  background-color: #ff0000;
+h1 {
+ color: #8a511e;  
+background-color: #8a511e;
 }
 
 
 h2 {
-    color: "#8a511e"  
+color: #8a511e;  
+background-color: #8a511e; 
 }
+
 
 hr {
 color: #8a511e;  
