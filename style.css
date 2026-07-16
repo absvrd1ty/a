@@ -1,22 +1,56 @@
-body {
-    background-image: url('https://raw.githubusercontent.com/absvrd1ty/a/refs/heads/main/pesok.png');
+
+@font-face {
+  
+  font-family: 'BonaNova';
+  src: url('https://absvrd.neocities.org/BonaNovaSC-Regular.ttf') format('truetype');
 }
+
+
+body {
+  
+       background-image: url('https://raw.githubusercontent.com/absvrd1ty/a/refs/heads/main/pesok.png');
+       background-repeat: no-repeat;
+       background-size: cover;  
+        
+}
+
+.oneblock {
+   margin-left: 100px;
+  }
+
 
 h1 {
      color: #8a511e;  
+     font-family: 'BonaNova';  
+     font-size: 120px;
+     margin-left: 100px;
+     margin-bottom: 1px;
 }
 
 
 h2 {
     color: #8a511e;  
+    font-size: 25px;
+    margin-left: 140px;
 }
 
 
 hr {
     color: #8a511e;  
-    background-color: #8a511e;
-}
+    width: 100%;
+    height: 1px;
+    background: #8a511e;
+    border: none 
+  }
+
 
 p {
     color: #8a511e; 
+    font-size: 35px;
+    margin-left: 140px;
+}
+
+ .no-space {
+            margin: 0;
+            padding: 0;
 }
